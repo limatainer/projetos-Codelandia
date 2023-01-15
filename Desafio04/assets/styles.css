@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: rgb(123, 182, 35);
+}
+
+@media (min-width: 768px) {
+  .h-md-100 {
+    height: 100vh;
+  }
+}
+
+.bg-indigo {
+  background: #F7FAFC;
+}
+
+.boasvindas {
+  margin-left: 120px;
+  margin-top: 160px;
+}
+
+.entre {
+  background: #04C35C;
+  height: 50px;
+  width: 347px;
+  left: 915px;
+  top: 554px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.google {
+  background: #1A202C;
+  color: #e2e2e2;
+  height: 50px;
+  width: 347px;
+  left: 915px;
+  top: 554px;
+  border-radius: 5px;
+}
+
+.esqueceu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.esqueceu p {
+  padding-left: 5px;
+}
+
+.esqueceu checkbox {
+  padding-top: 5px;
+}
+
+.criar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}

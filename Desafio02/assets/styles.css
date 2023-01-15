@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;700&family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+body {
+  background: #F9F9F9;
+}
+
+.promo p {
+  background: black;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loja {
+  background: #fff;
+}
+
+.melhor-loja {
+  margin: 3%;
+  position: relative;
+}
+
+.melhor-loja img {
+  opacity: 0.90;
+  filter: brightness(50%);
+}
+
+.melhorh2 {
+  position: absolute;
+  top: 17px;
+  padding-left: 100px;
+  padding-top: 130px;
+  color: #fff;
+}
+
+.melhorp {
+  position: absolute;
+  top: 17px;
+  padding-left: 100px;
+  padding-top: 180px;
+  color: #fff;
+}
+
+.gradeProdutos {
+  width: 100%;
+  display: grid;
+  grid-template: auto auto / auto auto auto auto;
+  justify-content: center;
+  gap: 25px 15px;
+  margin: auto;
+}
+
+.prod {
+  width: 300px;
+  height: 250px;
+  background-color: #EBE9EA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod img {
+  width: 240px;
+  transition: .6s;
+}
+
+.prod img:hover {
+  width: 280px;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+
+.direitos p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
